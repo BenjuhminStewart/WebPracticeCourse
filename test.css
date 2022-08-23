@@ -25,6 +25,11 @@ body {
     padding-top: 10px;
 }
 
+.question h2 {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
 .navbar {
     list-style-type: none;
     margin: 0;

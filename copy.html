@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="copy.css" />
+    <title>Good Menu Bar</title>
+  </head>
+  <body>
+    <div class="main">
+      <nav>
+        <img src="images/menu.png" class="menu-img" />
+        <img src="images/logo.png" class="logo" />
+
+        <ul class="menu">
+          <li class="menu-item"><a href="">Latest</a></li>
+          <li class="menu-item"><a href="">Modern</a></li>
+          <li class="menu-item"><a href="">Contemporary</a></li>
+          <li class="menu-item"><a href="">Affordable</a></li>
+        </ul>
+        <button type="button" onclick="toggleBtn()" id="btn">
+          <span></span>
+        </button>
+      </nav>
+
+      <div class="lamp-container">
+        <img src="images/lamp.png" class="lamp" />
+        <img src="images/light.png" class="light" id="light" />
+      </div>
+    </div>
+    <script>
+      var btn = document.getElementById("btn");
+      var light = document.getElementById("light");
+      function toggleBtn() {
+        btn.classList.toggle("active");
+        light.classList.toggle("on");
+      }
+    </script>
+  </body>
+</html>
