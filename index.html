@@ -5,26 +5,34 @@
     <link rel="stylesheet" type="text/css" href="index.css" />
   </header>
   <body>
-    <h1>
-      Practice <span style="color: rgb(93, 145, 97)">HTML</span> &
-      <span style="color: #4fa9f1">CSS</span>!
-      <br />
-    </h1>
-    <p>
-      Author:
-      <a
-        style="color: orange; text-decoration: none"
-        href="https://benjamin-portfolio.vercel.app/"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Benjamin Stewart
-      </a>
-    </p>
-    <hr />
+    <nav class="navbar">
+      <ul id="nav-list">
+        <li id="nav-title">
+          Practice <span style="color: rgb(93, 145, 97)">HTML</span> &
+          <span style="color: #4fa9f1">CSS</span>!
+        </li>
+        <li>
+          by:
+          <a
+            style="color: orange; text-decoration: none"
+            href="https://benjamin-portfolio.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Benjamin Stewart
+          </a>
+        </li>
+      </ul>
+    </nav>
     <div class="exercise-container">
-      <h2 class="exercise">Exercise 1</h2>
-      <div id="ex-1">
+      <div class="question">
         <ul>
+          <li><h2>Exercise 1</h2></li>
+          <li><input type="checkbox" id="ex-1" name="ex-1" value="" /></li>
+        </ul>
+      </div>
+
+      <div id="ex-1" class="exercise">
+        <ul class="exercises">
           <li>Change the color of the 'exercise 1' header</li>
           <li>Resize the question</li>
           <li>Center the question</li>
@@ -34,9 +42,14 @@
           </li>
         </ul>
       </div>
-      <h2 class="exercise">Exercise 2</h2>
-      <div id="ex-2">
+      <div class="question">
         <ul>
+          <li><h2>Exercise 2</h2></li>
+          <li><input type="checkbox" id="ex-1" name="ex-1" value="" /></li>
+        </ul>
+      </div>
+      <div id="ex-2" class="exercise">
+        <ul class="exercises">
           <li>Add a banner to the website</li>
           <li>Add a dropdown menu to the banner</li>
           <li>
