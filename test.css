@@ -7,6 +7,7 @@
     --active-color: rgb(36, 126, 45);
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
+    font-family: 'Comfortaa', sans-serif;
 }
 
 body {
@@ -25,9 +26,24 @@ body {
     padding-top: 10px;
 }
 
-.question h2 {
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
+.question #email {
+    color: rgb(59, 59, 116);
+}
+
+.question #phone {
+    color: rgb(165, 79, 73);
+}
+
+.question #github {
+    color: rgb(74, 134, 77);
+}
+
+.question #portfolio {
+    color: rgb(127, 63, 129);
+}
+
+.question a {
+    text-decoration: none;
 }
 
 .navbar {

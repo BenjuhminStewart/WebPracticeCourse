@@ -1,0 +1,87 @@
+* {
+    color: white;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+    font-family:'Coolvetica', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body {
+    background-color: rgb(52, 48, 53);
+}
+
+#title {
+    color: rgb(247, 255, 131) !important;
+    text-decoration:underline;
+    
+}
+
+:root {
+    --outer-spacing: 20px;
+    --nav-height: 7vh;
+    --top-padding: 9vh;
+    --nav-font-size: 20px;
+    --nav-separation: 20px;
+    --active-color: rgb(36, 126, 45);
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    font-family: 'Comfortaa', sans-serif;
+}
+
+#main {
+    margin-top: var(--top-padding);
+    margin-left: var(--outer-spacing);
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(40, 37, 41) !important;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: var(--nav-height);
+    line-height: var(--nav-height);
+    font-size: var(--nav-font-size);
+}
+
+.navbar li {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.main-item {
+    color: white;
+}
+
+div h3 {
+    color: rgb(247, 255, 131)
+}
+ul {
+    list-style: none
+}
+
+.caleb-options li {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none !important;
+    color: white;
+}
+
+.caleb-options {
+    margin-left:  10px;
+    text-align: left !important;
+    font-size: 19px;
+}
+a:hover {
+    color: rgb(247, 255, 131);
+}

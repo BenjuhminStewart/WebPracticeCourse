@@ -54,6 +54,7 @@ button {
     border-radius: 20px;
     border: 0;
     outline: 0;
+    transition:cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.5s;
     cursor: pointer;
 }
 
@@ -112,29 +113,6 @@ button span {
     border-radius: 30px;
 }
 
-.control {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-top: 150px;
-}
-
-.control .line {
-    width: 250px;
-    height: 4px;
-    background: white;
-    margin: 0 20px;
-    border-radius: 2px;
-}
-
-.control .line span {
-    width: 50%;
-    height: 8px;
-    margin-top: -2px;
-    border-radius: 4px;
-    background-color: #00986f;
-    display: block;
-}
 
 .active {
     background: green;
